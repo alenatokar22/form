@@ -7,3 +7,46 @@
 @import 'global';
 
 @import 'media';
+
+
+.form {
+  display: grid;
+  justify-content: center;
+  top: 320px;
+  left: 40%;
+  position: absolute;
+
+  &-btn {
+    padding: 5px 10px;
+    margin: auto;
+    background-color: rgb(96, 208, 242);
+    border-radius: 15%;
+    text-transform: uppercase;
+  }
+}
+
+fieldset {
+  margin-bottom: 15px;
+  background-image: linear-gradient(to bottom, yellow, red);
+}
+
+legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+tr {
+  display: grid;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 200px;
+}
+
+.wrapper {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
